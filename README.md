@@ -11,7 +11,7 @@ Like a typical computer that consists of input, output, control unit, compute un
 - As a functional unit in the manner of a black box, it can be integrated with other systems.
 
 ## Concepts Explained
-- *Profile*: dynamic input to the entire script module. The one-piece concept of _profile_ simplifies the interface and helps integration.
-- *Context*: shared states, generated and used by _Step Scripts_, normally persisted. The _context_ depicts a unified path for data interchange between steps and supports individual step execution.
-- *Step Scripts*: fine-grained scripts that read from the _profile_ and read from/write to the _context_. Ideally, each _step script_ is executable individually.
-- *Orchestrator*: streamline the execution of multiple _step scripts_ according to workflow or condition, generally as the unified entry for the script module.
+- **Profile**: dynamic input to the entire script module. The one-piece concept of _profile_ simplifies the interface and helps integration.
+- **Context**: shared states, generated and used by _Step Scripts_, normally persisted. The _context_ depicts a unified path for data interchange between steps and supports individual step execution.
+- **Step Scripts**: fine-grained scripts that read from the _profile_ and read from/write to the _context_. Ideally, each _step script_ is executable individually.
+- **Orchestrator**: streamline the execution of multiple _step scripts_ according to workflow or condition, generally as the unified entry for the script module.
