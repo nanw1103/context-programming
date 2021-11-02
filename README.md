@@ -1,6 +1,5 @@
 
 # Resumable Script Pattern
-A pattern for scripting.
 
 Like a typical computer that consists of input, output, control unit, compute unit, and memory, a complex script module, should generally be structured as profile, context, step scripts, and orchestrator. As _Resumable Script Pattern_.
 
