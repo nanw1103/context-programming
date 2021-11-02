@@ -1,14 +1,14 @@
 
 # Resumable Script Pattern
 
-Like a typical computer that consists of input, output, control unit, compute unit, and memory, a complex script module, should generally be structured as profile, context, step scripts, and orchestrator. As _Resumable Script Pattern_.
+Like a typical computer that consists of input, output, control unit, compute unit, and memory, a complex resumable script module, should generally be structured as profile, context, step scripts, and orchestrator. As _Resumable Script Pattern_.
 
 ## Traits Of A Complex Script Model
 - Consists of multiple operations
 - Development and maintenance are vital parts of the script lifecycle. So the followings are essential factors:
   - Straightforward: simple to understand, change, and add. Avoid overwhelming abstraction or wrapping.
   - Ideally executable per operation, so it's development-friendly, redo an operation anytime, or resume the workflow at any point.
-- Ideally, as a functional unit in the manner of a black box, it can be integrated with other systems.
+- As a functional unit in the manner of a black box, it can be integrated with other systems.
 
 ## Concepts Explained
 - *Profile*: dynamic input to the entire script module. The one-piece concept of _profile_ simplifies the interface and helps integration.
