@@ -1,11 +1,11 @@
 
-# Context Programming Pattern
+# Context Programming
 
 ## Concept
 A _functional program_ is a program that consists of multiple functional steps, with certain execution order, to complete a task. To be distinguished from daemon-like programs. A run-and-exit script or a workflow are typical examples of functional program.
 
-## Definition
-Like a typical computer that consists of _input, output, control unit, compute unit, and memory_, a _functional program_ could be structured as _profile, context, steps, and orchestrator_. As _Context Programming Pattern_.
+## Definition of Context Programming
+Like a typical computer that consists of _input, output, control unit, compute unit, and memory_, a _functional program_ could be structured as _profile, context, steps, and orchestrator_. As _Context Programming_ pattern.
 
 ## Traits Of A Functional Program
 - Consists of multiple operations
