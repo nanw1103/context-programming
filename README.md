@@ -7,8 +7,8 @@ A _functional program_ is a program that consists of multiple functional steps, 
 Like a typical computer that consists of _input, output, control unit, compute unit, and memory_, a _functional program_ could be structured as _profile_, _context_, _steps_, and _orchestrator_. As _Context Programming_ pattern.
 
 ## Concepts Explained
-- **Profile**: The input of the entire module. The one-piece concept of _profile_ simplifies the interface and helps integration. Profile is read-only.
-- **Context**: Runtime generated states, shared between _Steps_, normally persisted. The _context_ depicts a unified path for data interchange between steps.
+- **Profile**: The input of the entire module. The one-piece concept of _profile_ simplifies the interface and helps integration. Profile is read-only. Similar to configuration file.
+- **Context**: Runtime generated states, shared between _Steps_, normally persisted. The _context_ depicts a unified path for data interchange between steps. _Context_ is persisted to help retrive and replay _Steps_. 
 - **Steps**: fine-grained operations that read from the _profile_ and read from/write to the _context_. Ideally, each _step_ is executable individually.
 - **Orchestrator**: streamline the execution of multiple _steps_ according to workflow or condition, generally as the unified entry for the entire module.
 
